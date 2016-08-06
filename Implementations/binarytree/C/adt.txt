@@ -1,0 +1,9 @@
+    public boolean bt_is_empty();
+    public int bt_height();
+    public void bt_preorder();	// Visit preorder, add results to list
+    public void bt_inorder();
+    public void bt_postorder();
+    public void bt_add(Object object, String dir);
+    public void bt_add_inorder(node* n_p, int val);
+    int bt_add_left_child(node* n_p, node* c_p);
+    int bt_add_right_child(node* n_p, node* c_p);
