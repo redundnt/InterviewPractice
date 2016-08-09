@@ -53,12 +53,21 @@ This is more memory efficient than a linked list
 ### Stack
 
 #### Basic Design
-LIFO
+LIFO. Can use array or linked list (singly with special pointer to tail - 1)
 
 #### Operation Run times
 1. `PUSH(S, x)`: O(1)
 2. `POP(S)`:     O(1)
-3. `ISEMPTY(S)`: O(1)
+3. `EMPTY(S)`: O(1)
+
+### Queue
+#### Basic Design
+FIFO. Can use circular array or doubly linked list.
+
+#### Operation Run Times
+1. `ENQUEUE(S, x)`: O(1)
+2. `DEQUEUE(S, x)`: O(1)
+3. `EMPTY(S)`: O(1)
 
 ### Linked Binary Tree
 #### Basic Design
@@ -68,28 +77,42 @@ we can have a __sorted__ tree where items are added in a way such that an __inor
 return the elements in total ordering.
 
 #### Operation Run Times
-1. `INSERT(S,x)`: O(lg n)
-2. 
+1. `INSERT(S, x)`: O(lg n)
+2. `DELETE(S, x)`: O(1)
+3. `SEARCH(S, k)`: O(lg n)
+4. `MINIMUM(S)`: O(1)
+5. `MAXIMUM(S)`: O(lg n)
+
 ### Array Based Binary Tree
 ### General Trees
 #### Basic Design
 
 
-### Stacks
-#### Basic Design
-
-
-### Queues
-#### Basic Design
-
-
-### Vectors/ArrayLists
-#### Basic Design
-
-
 ### Hash Tables
 #### Basic Design
+Supports operations: __SEARCH__, __DELETE__, and __INSERT__.
 
+__Direct-address Tables:__ Given keys in [0..m-1] with guaranteed unique keys we can store
+pointers to `(key, satellite data)` tuples.
+
+__Hash functions:__ A function *h(k)* that maps a key to Z<sub>m</sub>. To handle collisions,
+use __chaining__ or __open addressing__.
+
+__Chaining collision resolution__: In table _T_, each box _T[h(k)]_ points to a linked list that contains elements
+that hash to _h(k)_. 
+
+1. `INSERT(S, x)`: 
+ * __chaining__: O(1)
+ * __direct-address__: O(1)
+ * __open-addressing__: ??? 
+2. `DELETE(S, x)`:
+ * __chaining__: O(1)
+ * __direct-address__: O(1)
+ * __open-addressing__: ???
+3. `SEARCH(S, k)`:
+ * __chaining__: O(1)
+ * __direct-address__: O(1)
+ * __open-addressing__: ???
 
 ## Algorithms
 
