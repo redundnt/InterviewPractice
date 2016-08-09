@@ -102,17 +102,17 @@ __Chaining collision resolution__: In table _T_, each box _T[h(k)]_ points to a 
 that hash to _h(k)_. 
 
 1. `INSERT(S, x)`: 
- * __chaining__: O(1)
- * __direct-address__: O(1)
- * __open-addressing__: ??? 
+  * __chaining__: O(1)
+  * __direct-address__: O(1)
+  * __open-addressing__: ??? 
 2. `DELETE(S, x)`:
- * __chaining__: O(1)
- * __direct-address__: O(1)
- * __open-addressing__: ???
+  * __chaining__: O(1)
+  * __direct-address__: O(1)
+  * __open-addressing__: ???
 3. `SEARCH(S, k)`:
- * __chaining__: O(1)
- * __direct-address__: O(1)
- * __open-addressing__: ???
+  * __chaining__: WORST CASE - _O(n)_, AVERAGE - _O(n/k)_ with _n_ the number of hashed values, _m_ the total slots
+  * __direct-address__: O(1)
+  * __open-addressing__: ???
 
 ## Algorithms
 
