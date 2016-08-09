@@ -3,7 +3,7 @@ Common Questoions
 
 Common Questions | BFG                                                  | Geometry of Music     | PyPy/MuVM 
 ---------------- | ---------------------------------------------------- | --------------------- | --------- 
-Most Challenging | project organization, finding time                   | Delegating/being most qualified/managing people  | Working on own/Difficult material         
+Most Challenging | project organization, finding time                   | Delegating/being most qualified/managing people  | Working on own/Difficult material/lack of explicit interface      
 What I Learned   | balance of abstraction layers, specific project goal | Relationships between M&M       | Compilers/Reading Others Work/Python
 Most Interesting | Maths/New Tech (SFML)/C++14                          | Analysis of music mathemtacally | Theoretical side
 Hardest Bug      | complex.h                                            | N/A                   | None yet
