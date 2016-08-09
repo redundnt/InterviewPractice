@@ -15,8 +15,10 @@ Conflicts        | Worked on own, Tevelev change                        | None e
 2. Comparing myself to others.
 
 ## What was the most challenging part of a project?
-
+In PyPy/MuVM I have had difficulty dealing with the number variables in creating our JIT compiler
 
 ## Questions to ask interviewer
-
-
+1. What would your advice be to a student being hired by Google
+2. What is your least favorite part of working at Google
+3. How much coding do you do in a week?
+4. How often do you get to solve interesting problems?
