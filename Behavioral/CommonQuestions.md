@@ -1,10 +1,10 @@
 Common Questoions
 =================
 
-Common Questions | Project 1 | Project 2 | Project 3 | Project 4
+Common Questions | BFG       | Geometry of Music | PyPy/MuVM | Project 4
 ---------------- | --------- | --------- | --------- | ---------
 Most Challenging |           |           |           |         
-What I Learned   |           |           |           |         
+What I Learned   | too many abstraction layers, |           |           |         
 Most Interesting |           |           |           |         
 Hardest Bug      |           |           |           |         
 Enjoyed Most     |           |           |           |         
