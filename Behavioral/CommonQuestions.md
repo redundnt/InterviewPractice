@@ -9,3 +9,14 @@ Most Interesting | Maths/New Tech (SFML)/C++14                          | Analys
 Hardest Bug      | complex.h                                            | N/A                   | None yet
 Enjoyed Most     | creating new fractals                                | Presentation          | Understanding new chunk of code
 Conflicts        | Worked on own, Tevelev change                        | None explicit         | No conflicts 
+
+## What are your weaknesses?
+1. Many interests, sometimes have trouble focusing.
+2. Comparing myself to others.
+
+## What was the most challenging part of a project?
+
+
+## Questions to ask interviewer
+
+
